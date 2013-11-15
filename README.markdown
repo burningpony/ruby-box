@@ -223,6 +223,20 @@ users = client.users
 users = client.users("sean" , 10 , 1)
 ```
 
+As-User
+-------
+
+* This must be manually enabled for your account by Box Staff.   Contact api@box.com for access.  [ More Info ] (http://developers.box.com/docs/#users-as-user)
+
+```ruby
+session = RubyBox::Session.new({
+  client_id: 'your-client-id',
+  client_secret: 'your-client-secret',
+  access_token: 'original-access-token' ,
+  as_user: 'your-users-box-id'
+})
+```
+
 Contributors
 ============
 
