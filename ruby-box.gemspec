@@ -38,6 +38,7 @@ Gem::Specification.new do |s|
     "lib/ruby-box/session.rb",
     "lib/ruby-box/shared_link.rb",
     "lib/ruby-box/user.rb",
+    "lib/ruby-box/group.rb",
     "lib/ruby-box/web_link.rb",
     "ruby-box.gemspec",
     "spec/client_spec.rb",
